@@ -4,7 +4,7 @@ An AI-powered shopping assistant that helps users find products, check inventory
 
 ## 📸 Demo
 
-![AI Shopping Assistant](assets/demo_(2).png)
+![AI Shopping Assistant](https://github.com/samarth2910/Shopping-Agent/blob/master/assets/demo%20(2).png)
 
 ## 🤖 Built With
 
