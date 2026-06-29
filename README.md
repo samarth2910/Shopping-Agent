@@ -4,7 +4,7 @@ An AI-powered shopping assistant that helps users find products, check inventory
 
 ## 📸 Demo
 
-![AI Shopping Assistant](assets/demo(2).png)
+![AI Shopping Assistant](assets/demo_(2).png)
 
 ## 🤖 Built With
 
