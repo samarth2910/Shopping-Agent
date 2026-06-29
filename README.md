@@ -1,6 +1,8 @@
-# 🛍️ Shopping Agent
+# 🛍️ Shopping Agent — Agentic AI Project
 
-An AI-powered shopping assistant that helps users find products, check inventory, and read reviews using natural language and image search.
+An **agentic AI** shopping assistant that autonomously plans, reasons, and executes multi-step tasks — searching products, checking inventory, reading reviews, and placing orders — all from a single natural language or image input.
+
+Built using a **LangChain agent** with custom tools that the AI decides when and how to use, making it a true agentic system rather than a simple chatbot.
 
 ## 📸 Demo
 
@@ -8,18 +10,32 @@ An AI-powered shopping assistant that helps users find products, check inventory
 
 ## 🤖 Built With
 
-- **LangChain** — Agent framework with custom tools
-- **Groq** — Fast LLM inference
+- **LangChain** — Agentic framework with custom tools & reasoning loop
+- **Groq** — Fast LLM inference powering the agent
 - **Streamlit** — Chat UI
 - **SQLite** — Local product & reviews database
 
 ## ✨ Features
 
+- 🤖 Agentic reasoning — AI autonomously decides which tools to use
 - 🔍 Natural language product search
 - 🖼️ Image-based product search
 - ⭐ Product ratings & reviews
 - 📦 Real-time inventory checking
+- 🛒 Autonomous order placement
 - ⚡ Fast responses powered by Groq
+
+## 🧠 How It Works (Agentic Loop)
+
+```
+User Input → LangChain Agent → Decides which tool(s) to call
+                ↓
+    [search_products] [check_inventory] [get_reviews] [place_order]
+                ↓
+         Final Response to User
+```
+
+The agent autonomously chains multiple tools together to complete complex tasks — no hardcoded logic.
 
 ## 🚀 Getting Started
 
